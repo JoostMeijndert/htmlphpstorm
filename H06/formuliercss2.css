@@ -1,0 +1,49 @@
+*{
+    /*border: dotted 1px gray;*/
+    margin: 10px;
+    align-self: center;
+}
+
+body{
+    margin: 0px;
+    padding: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+div#wrapper {
+    width: 1000px;
+    margin: auto;
+    background-color: #fcebeb;
+    padding: 20px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 16% 34% 15% 35%;
+}
+
+h1{
+    grid-column: 1/5;
+    font-size: 26px;
+}
+
+input.tekstvakken{
+    width: 250px;
+}
+
+.eten{
+    grid-column: 4/5;
+}
+
+.ogen{
+    width: 200px;
+}
+
+.datum{
+    width: 200px;
+}
+
+.button{
+    grid-column: 4/5;
+}

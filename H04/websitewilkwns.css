@@ -1,0 +1,39 @@
+
+body{
+}
+
+nav{
+    padding: 10px;
+    background-color: black
+}
+
+nav a{
+    border-right: 3px solid white;
+    color: white;
+    padding: 15px;
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 465px;
+    margin-top: 60px;
+    margin-right: 40px;
+    float: right;
+}
+
+td{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+div.wrapper{
+    margin:auto;
+}
+
+artikel{
+    width: 700px;
+    margin-top: 5px;
+    margin-left: 40px;
+    float: left;
+}
