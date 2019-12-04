@@ -37,3 +37,7 @@ artikel{
     margin-left: 40px;
     float: left;
 }
+
+img.foto{
+    margin: auto;
+}
