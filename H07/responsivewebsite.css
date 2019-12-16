@@ -8,16 +8,6 @@ body{
     padding: 0px;
 }
 
-@media all and (min-width: 575px){
-    ul{
-        background-color: #808080;
-        border-top: 1px solid white;
-    }
-    li {
-        display: inline-block;
-    }
-}
-
 header{
     background-color: #caecde;
     text-align: center;
@@ -53,9 +43,23 @@ section{
     padding: 20px;
 }
 
+iframe{
+    max-width: 100%;
+    margin: auto;
+    height: 300px;
+    padding: 10px;
+}
+
 @media all and (min-width: 575px) {
+    ul{
+        background-color: #808080;
+        border-top: 1px solid white;
+    }
+    li {
+         display: inline-block;
+     }
     section#nieuws{
-        width: 40%;
+        width: 28%;
         float: left;
     }
     section#instrumenten{
@@ -66,7 +70,7 @@ section{
 
 @media all and (min-width: 815px) {
     section#nieuws{
-        width: 30%;
+        width: 22%;
         float: left;
     }
     section#instrumenten{
@@ -98,6 +102,11 @@ img.sectionfoto{
 }
 
 @media all and (min-width: 1200px) {
+    section#nieuws{
+        width: 22%;
+        float: left;
+    }
+
     div#wrapper{
         width: 1200px;
         margin: auto;
