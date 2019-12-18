@@ -59,11 +59,11 @@ iframe{
          display: inline-block;
      }
     section#nieuws{
-        width: 28%;
+        width: 25%;
         float: left;
     }
     section#instrumenten{
-        width: 60%;
+        width: 55%;
         float: right;
     }
 }
@@ -74,7 +74,7 @@ iframe{
         float: left;
     }
     section#instrumenten{
-        width: 70%;
+        width: 60%;
         float: right;
     }
     /*article{*/
